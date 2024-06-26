@@ -11,7 +11,7 @@ import { RouterOutlet } from '@angular/router';
 export class AppComponent {
   title = 'my-app1';
   inputType = 'password';
-  notify() {
-    alert('I clicked');
+  notify(val: string) {
+    alert(val);
   }
 }

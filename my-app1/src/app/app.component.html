@@ -180,8 +180,8 @@
 <h2>Just for checking where is project template running</h2>
 <h1>2+2 = {{ 2 + 2 }}</h1>
 <h1>{{ title }}</h1>
-<input [type]="inputType" />
-<button (click)="notify()">Click me</button>
+<input #yourName [type]="inputType" />
+<button (click)="notify(yourName.value)">Click me</button>
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * The content above * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * * -->
