@@ -10,5 +10,5 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'my-app1';
-  inputType = 'text';
+  inputType = 'password';
 }
