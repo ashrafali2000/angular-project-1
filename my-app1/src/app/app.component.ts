@@ -10,8 +10,8 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'my-app1';
-  inputType = 'password';
+  inputType = 'text';
   notify(val: string) {
-    alert(val);
+    alert('Asslamualikum' + val);
   }
 }
